@@ -5,10 +5,10 @@ import { Contact } from "../components/Contact";
 
 export function Body() {
   return (
-    <>
+    <section>
       <AboutMe />
       <Projects />
       <Contact />
-    </>
+    </section >
   );
 }
