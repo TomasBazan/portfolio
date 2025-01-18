@@ -1,13 +1,13 @@
-import Home from "./pages/Home"
+import Body from "./pages/Body"
 import PageWrapper from "./layouts/PageWrapper"
 
 import './App.css'
 
 function App() {
   return (
-    <div className="font-[family-name:var(--font-geist-sans)]">
+    <div className="font-[Montserrat]">
       <PageWrapper>
-        <Home />
+        <Body />
       </PageWrapper>
     </div>)
 }

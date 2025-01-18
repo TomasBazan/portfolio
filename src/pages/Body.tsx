@@ -1,13 +1,17 @@
-import { AboutMe } from "../components/AboutMe";
+import { AboutMe } from "./AboutMe";
+import { Skills } from "./Skills";
 import { Projects } from "./Projects";
-import { Contact } from "../components/Contact";
+import { Contact } from "./Contact";
+import { Home } from "./Home";
 
 
-export function Body() {
+export default function Body() {
   return (
     <section>
-      <AboutMe />
+      <Home/>
       <Projects />
+      <Skills />
+      <AboutMe />
       <Contact />
     </section >
   );
