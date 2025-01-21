@@ -1,0 +1,8 @@
+/* Header styles */
+.headerConditional {
+  @apply z-10 bg-[var(--background-color-secondary)] sticky top-0 h-10 flex justify-center sm:h-12 md:h-14 xl:h-16 transition-shadow;
+}
+
+.headerConditional.visible {
+  @apply shadow-md;
+}

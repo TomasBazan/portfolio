@@ -2,8 +2,8 @@ import { CardProject } from "../components/CardProject/CardProject";
 
 export function Projects() {
   return (
-    <section id="Projects" className="min-h-[calc(100vh-3rem)] transition-all flex justify-around items-center flex-col">
-      <h1 className="mb-10 text-5xl">Projects</h1>
+    <section id="Projects" className="min-h-[calc(100vh-3rem)] transition-all flex justify-center items-center flex-col">
+      <h1 className="mb-20 text-5xl">Projects</h1>
       <section className="w-7/12 grid grid-cols-3 gap-4">
         <CardProject 
           gridLayout="col-span-2 row-start-1"
