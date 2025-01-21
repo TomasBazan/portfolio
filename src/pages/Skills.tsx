@@ -4,7 +4,6 @@ import jsIcon from '../assets/icons/js-icon.svg';
 import tsIcon from '../assets/icons/ts-icon.svg';
 import reactIcon from '../assets/icons/react-icon.svg';
 import mysqlIcon from '../assets/icons/mysql-icon.svg';
-import mongoIcon from '../assets/icons/mongodb-icon.svg';
 import twIcon from '../assets/icons/tailwindcss-icon.svg';
 import reduxIcon from '../assets/icons/redux-icon.svg';
 import drfIcon from '../assets/icons/drf-icon.svg';
@@ -40,26 +39,12 @@ export function Skills() {
           MySQL
         </li>
         <li className='skill'>
-          <img src={mongoIcon} alt="Python Logo" className="w-8 h-8" />
-          MongoDB
-        </li>
-        <li className='skill'>
-          <img src={drfIcon} alt="Python Logo" className="w-8 h-8" />
-          DRF
-        </li>
-        <li className='skill'>
           <img src={twIcon} alt="Python Logo" className="w-8 h-8" />
           Tailwind CSS
         </li>
         <li className='skill'>
           <img src={reduxIcon} alt="Python Logo" className="w-8 h-8" />
           Redux Toolkit
-        </li>
-        <li className='skill'>
-          React Query
-        </li>
-        <li className='skill'>
-          React Form
         </li>
       </ul>
     </section>

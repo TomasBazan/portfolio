@@ -7,8 +7,7 @@ import { CanvasBackground } from "../layouts/CanvasBackground"
 
 export default function Body() {
   return (
-    <>
-      <div className="relative">
+    <main className="relative">
       <CanvasBackground />
       <section>
         <Home/>
@@ -17,7 +16,6 @@ export default function Body() {
         <Skills />
         <Contact />
       </section >
-      </div>
-    </>
+    </main>
   );
 }
