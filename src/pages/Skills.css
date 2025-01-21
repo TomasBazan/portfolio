@@ -1,0 +1,3 @@
+.skill{
+  @apply flex flex-col gap-2 p-4 text-xl justify-around items-center border-4 border-[var(--background-color-primary)] rounded-xl;
+}
