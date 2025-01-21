@@ -32,7 +32,7 @@ export function Header() {
           <a href="#Projects" className="h-full flex items-center text-white hover:text-cyan-400 h-full hover:border-b border-cyan-400 transition-all">
             Projects
           </a>
-          <a href="#Projects" className="h-full flex items-center text-white hover:text-cyan-400 hover:border-b border-cyan-400 transition-all">
+          <a href="#Skills" className="h-full flex items-center text-white hover:text-cyan-400 hover:border-b border-cyan-400 transition-all">
             Skills
           </a>
           <a href="#Contact" className="h-full flex items-center text-white hover:text-cyan-400 hover:border-b border-cyan-400 transition-all">
