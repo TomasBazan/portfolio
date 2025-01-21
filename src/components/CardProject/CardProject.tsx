@@ -48,11 +48,11 @@ export function CardProject( {repoPath, name, description, gridLayout} : project
   return (
     <section 
       ref={cardRef}
-      className={`cardContainer border-solid p-[2px] rounded-lg border-gray-600 ${gridLayout} `}
+      className={`cardContainer z-0 border-solid p-[2px] rounded-lg border-gray-600 ${gridLayout} `}
     >
-      <article className="card-content min-h-80 bg-[var(--background-color-secondary)]  rounded-lg w-full h-full flex flex-col items-center justify-between text-pretty">
-        <h2 className="text-4xl">{`${name}`}</h2>
-        <p className="text-center text-white text-xl max-w-[300px] mx-auto p-2">{`${description}`}</p>
+      <article className="z-2 bg-[var(--background-color-secondary)] min-h-80rounded-lg w-full h-full flex flex-col items-center justify-between text-pretty rounded-lg">
+        <h2 className="text-md lg:text-4xl">{`${name}`}</h2>
+        <p className="text-center text-white text-sm  max-w-[300px] mx-auto p-2 md:text-md lg:text-xl">{`${description} `}</p>
         <button>
           <a href={repoPath ? `https://github.com/TomasBazan/${repoPath}` : `https://github.com/TomasBazan?tab=repositories`} target="_blank" rel="noopener noreferrer" className="text-cyan-300">
             GitHub

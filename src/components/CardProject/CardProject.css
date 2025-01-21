@@ -10,10 +10,4 @@
     transparent 40%
   );
   transition: background 0.3s ease;
-  z-index: 0;
-}
-
-
-.card-content{
-  z-index: 2;
 }
