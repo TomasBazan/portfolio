@@ -9,25 +9,25 @@ export function Projects() {
           gridLayout="col-span-2 row-start-1"
           repoPath= "SimulacionSupermercado"
           name= "Simulacion de Supermercado"
-          desc = "Análisis de modelos de reparación en sistemas de cajas registradoras con simulación monte carlo"
+          description = "Análisis de modelos de reparación en sistemas de cajas registradoras con simulación monte carlo"
         />
         <CardProject 
           gridLayout="col-span-1 row-start-1"
           repoPath= "TaskManager"
           name= "Task Manager"
-          desc = "Manejador de Tareas Web, creado con React-Django"
+          description = "Manejador de Tareas Web, creado con React-Django"
         />
         <CardProject 
           gridLayout="col-span-1 row-start-2"
           repoPath= "Weathear-API"
           name= "Weathear-API"
-          desc = "Api de clima conectado con api de terceros y con cache en Redis"
+          description = "Api de clima conectado con api de terceros y con cache en Redis"
         />
         <CardProject 
           gridLayout="col-span-2 row-start-2"
           repoPath= "SimulacionSupermercado"
           name= "Simulacion de Supermercado"
-          desc = "Análisis de modelos de reparación en sistemas de cajas registradoras con simulación monte carlo"
+          description = "Análisis de modelos de reparación en sistemas de cajas registradoras con simulación monte carlo"
         />
       </section>
     </section>
