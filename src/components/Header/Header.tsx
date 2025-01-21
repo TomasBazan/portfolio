@@ -1,6 +1,26 @@
+import { useEffect } from "react";
+import "./Header.css"
+
 export function Header() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector(".headerConditional");
+      if (window.pageYOffset > 0) {
+        header?.classList.add("visible");
+      } else {
+        header?.classList.remove("visible");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <section className="z-10 bg-[#111111] sticky top-0 h-10 flex justify-center sm:h-12 md:h-14 xl:h-16">
+    <section className="headerConditional">
       <section className="pl-4 pr-4 flex flex-row justify-between  w-full md:w-[768px] xl:w-[1024px] 2xl:w-[1024px] ">
         <p className="text-white flex items-center text-sm font-bold sm:text-xl md:text-xl xl:text-2xl 2xl:text-3xl">
           Tomas Bazan
