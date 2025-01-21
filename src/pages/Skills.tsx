@@ -12,9 +12,9 @@ import './Skills.css'
 
 export function Skills() {
   return (
-    <section id="Skills" className="bg-[var(--background-color-secondary)] min-h-[calc(100vh-3rem)]  flex justify-center items-center flex-col">
-      <h1 className="text-5xl ">Skills</h1>
-      <ul className="text-3xl w-7/12 my-40 grid grid-cols-4 gap-4 h-96">
+    <section id="Skills" className="bg-[var(--background-color-secondary)] min-h-[calc(100vh-3rem)]  flex justify-around items-center flex-col">
+      <h1 className="text-3xl md:text-5xl">Skills</h1>
+      <ul className="grid text-3xl w-full p-3 my-10 gap-3 grid-cols-2 md:my-20 md:grid-cols-3 lg:grid-cols-4  lg:w-10/12 xl:w-7/12 ">
         <li className='skill'>
           <img src={pythonIcon} alt="Python Logo" className="w-8 h-8" />
           Python

@@ -5,7 +5,7 @@ export function Projects() {
     <section id="Projects" 
       className="min-h-[calc(100vh-3rem)]  transition-all flex justify-around items-center flex-col">
       <h1 className="text-3xl md:text-5xl">Projects</h1>
-      <section className="grid gap-4 w-full p-3 grid-cols-1  lg:w-7/12 md:grid-cols-3">
+      <section className="grid gap-4 w-full p-3 grid-cols-1 lg:w-10/12 xl:w-7/12 md:grid-cols-3">
         <CardProject 
           gridLayout="md:col-span-2 row-start-1"
           repoPath= "SimulacionSupermercado"
