@@ -1,0 +1,46 @@
+.titleHome {
+  color: transparent;
+  animation: slidein-right-left 0.8s cubic-bezier(0.74, 0.62, 0.58, 1) 0.2s 1 forwards; /* Run animation to slide in */
+}
+.titleHome mark {
+  background:transparent;
+  color: transparent;
+  animation: slidein-right-left-name 0.8s cubic-bezier(0.74, 0.62, 0.58, 1) 0.2s 1 forwards; /* Animate the text */
+}
+ 
+@keyframes slidein-right-left {
+  from {
+    color: transparent;
+    transform: translateX(5vw); /* Start offscreen to the right */
+  }
+  to {
+    color: inherit;
+    transform: translateX(0); /* Slide into its final position */
+  }
+} 
+
+@keyframes slidein-right-left-name {
+  from {
+    transform: translateX(5vw); /* Start offscreen to the right */
+  }
+  to {
+    color: #EE3D22; /* Keep it transparent */
+    transform: translateX(0); /* Slide into its final position */
+  }
+}
+
+.descHome {
+    color: transparent;
+    animation: slidein-left-right 0.8s ease-in 0.2s 1 forwards; /* Run animation to slide in */
+  }
+  
+  @keyframes slidein-left-right {
+    from {
+      color: transparent;
+      transform: translateX(-5vw); /* Start offscreen to the right */
+    }
+    to {
+      color: inherit;
+      transform: translateX(0); /* Slide into its final position */
+    }
+  } 

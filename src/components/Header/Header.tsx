@@ -32,13 +32,8 @@ export function Header() {
             </a>
           </li>
           <li>
-            <a href="#Projects" className="h-full flex items-center text-white hover:text-cyan-400 h-full hover:border-b border-cyan-400 transition-all">
+            <a href="#Projects" className="h-full flex items-center text-white hover:text-[#EE3D22] h-full hover:border-b border-[#EE3D22] transition-all">
               Projects
-            </a>
-          </li>
-          <li>
-            <a href="#Skills" className="h-full flex items-center text-white hover:text-cyan-400 hover:border-b border-cyan-400 transition-all">
-              Skills
             </a>
           </li>
           <li>
